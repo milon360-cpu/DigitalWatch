@@ -1,0 +1,46 @@
+/* Basic setting  start here */
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* Basic setting  end here */
+.watch-instument
+{
+    background-color:#18191A;
+    max-width: 800px;
+    height: auto;
+    margin-top: 10%;
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.5);
+    border-left: 3px solid tomato;
+    border-top: 3px solid tomato;
+}
+.watch-container 
+{
+    background-color: #242526;
+    max-width: 400px;
+    height: 180px;
+    padding: 10px;
+}
+#watch 
+{
+    text-shadow: 2px 2px 3px rgba(114, 111, 111, 0.657);
+}
+.change-time-color 
+{
+    max-width: 200px;
+    background-color: #242526;
+}
+
+@media screen and (max-width:660px)
+{
+    .watch-container
+    {
+      margin-top: 5%!important;
+    }
+}
