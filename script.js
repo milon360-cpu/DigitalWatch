@@ -5,7 +5,7 @@ function timeCount()
     let hour = date.getHours();
     let min = date.getMinutes();
     let second = date.getSeconds();
-    let timeFormat  = 'PM';
+    let timeFormat  = 'AM';
     if(hour===0)
     {
         hour = 12;
@@ -13,7 +13,7 @@ function timeCount()
     if(hour>12)
     {
         hour = hour-12;
-        let timeFormat  = 'AM'
+        timeFormat  = 'PM'
     }
     hour = hour<10 ? '0' + hour : hour;
     min = min<10 ? '0' + min : min;
